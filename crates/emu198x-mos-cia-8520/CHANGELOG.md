@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## 0.1.0
+
+### Added
+
+- First release under the `emu198x-mos-cia-8520` name. Until now the crate was
+  `mos-cia-8520`, versioned with the Emu198x suite and unpublished; the entries below are from that name.
+
 ### Added
 
 - Add a side-effect-free diagnostic snapshot covering every implemented CIA register, latch, timer, port, TOD, serial, control, and interrupt field.

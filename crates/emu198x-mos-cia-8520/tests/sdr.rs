@@ -16,7 +16,7 @@
 //! shifting is not implemented in the archive and is out of scope
 //! for Phase 1.
 
-use mos_cia_8520::Cia8520;
+use emu198x_mos_cia_8520::Cia8520;
 
 const CRA: u8 = 0x0E;
 const SDR: u8 = 0x0C;

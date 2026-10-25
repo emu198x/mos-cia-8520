@@ -1,6 +1,6 @@
 //! Read-only diagnostic snapshot coverage.
 
-use mos_cia_8520::{
+use emu198x_mos_cia_8520::{
     Cia8520,
     bits::{CR_LOAD, CR_OUTMODE, CR_PBON, CR_RUNMODE, CR_START, CRB_ALARM_SELECT, ICR_IR, ICR_SP},
 };

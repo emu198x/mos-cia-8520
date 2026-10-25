@@ -22,7 +22,7 @@
 //!   - TxLO/TxHI writes while running vs stopped
 //!   - ICR flag latches (TA bit 0, TB bit 1) on underflow
 
-use mos_cia_8520::Cia8520;
+use emu198x_mos_cia_8520::Cia8520;
 
 // ────────────────────────────────────────────────────────────────
 // Helpers

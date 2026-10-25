@@ -16,7 +16,7 @@
 //!   bit 3 SP     — Serial byte complete
 //!   bit 4 FLAG   — /FLAG pin falling edge
 
-use mos_cia_8520::Cia8520;
+use emu198x_mos_cia_8520::Cia8520;
 
 const CRA: u8 = 0x0E;
 const CRB: u8 = 0x0F;

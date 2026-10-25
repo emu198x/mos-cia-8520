@@ -16,7 +16,7 @@
 //! implements the write-halt only on TODHI ($A), which is 6526-style;
 //! 8520 HRM is unambiguous that any TOD write halts.
 
-use mos_cia_8520::Cia8520;
+use emu198x_mos_cia_8520::Cia8520;
 
 const CRB: u8 = 0x0F;
 const TODLO: u8 = 0x08;
